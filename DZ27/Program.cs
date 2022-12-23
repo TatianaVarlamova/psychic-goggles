@@ -1,6 +1,5 @@
 ﻿Console.WriteLine("введите число ");
-int number = int.Parse(Console.ReadLine()!);
-string Number = Convert.ToString(number);
+string Number = Console.ReadLine()!;
 int[] Array = new int[Number.Length];
 int i;
 for(i = 0; i < Number.Length; i++)
