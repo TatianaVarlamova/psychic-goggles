@@ -1,4 +1,8 @@
-﻿Console.WriteLine ("Введите размер массива");
+﻿// Задайте массив вещественных чисел. 
+// Найдите разницу между максимальным и минимальным элементов массива.
+// [3 7 22 2 78] -> 76
+
+Console.WriteLine ("Введите размер массива");
 int numb = Convert.ToInt32(Console.ReadLine());
 double[] Array =new double[numb];
 for (int i=0; i<Array.Length; i++)
