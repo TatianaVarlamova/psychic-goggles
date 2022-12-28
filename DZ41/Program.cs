@@ -5,7 +5,7 @@
 // 1, -7, 567, 89, 223-> 3
 
 Console.WriteLine("Введите числа через пробел: ");
-string inputText = Console.ReadLine(); 
+string inputText = Console.ReadLine()!; 
 string[] stringArray = inputText.Split(' ');
 int[] arr = new int[stringArray.Length];
 
